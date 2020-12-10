@@ -16,7 +16,7 @@ const Sidebar = () => {
     return (
         <div className="sidebar">
             {/* Twitter icon */}
-            <TwitterIcon/>
+            <TwitterIcon className="sidebar__twitterIcon"/>
             <SidebarOption active text="Home" Icon={HomeIcon}/>
             <SidebarOption text="Explore" Icon={SearchIcon}/>
             <SidebarOption text="Notification" Icon={NotificationsNoneIcon}/>
