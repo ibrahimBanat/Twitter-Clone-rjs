@@ -10,9 +10,9 @@ function App() {
     <div className="app">
       
       <Sidebar/>
-      {/* Feed */}
+      
       <Feed/>
-      {/* Widgets */}
+      
       <Widgets/>
     </div>
   );
